@@ -1,4 +1,4 @@
-function createMap(bikeStations) {
+function createMap(superBowls) {
 
   // Create the tile layer that will be the background of our map
   var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
@@ -15,14 +15,14 @@ function createMap(bikeStations) {
 
   // Create an overlayMaps object to hold the bikeStations layer
   var overlayMaps = {
-    "Bike Stations": bikeStations
+    "Super Bowls": superBowls
   };
 
   // Create the map object with options
   var map = L.map("map-id", {
-    center: [39.828175,-98.579500],
-    zoom: 5,
-    layers: [lightmap, bikeStations]
+    center: [34,-112],
+    zoom: 11,
+    layers: [lightmap, superBowls]
   });
 
   // Create a layer control, pass in the baseMaps and overlayMaps. Add the layer control to the map
