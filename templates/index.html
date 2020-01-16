@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eric Flask Demo</title>
+
+    <!-- Import the Plotly library. Note that this has to 
+         happen before we importa any code that uses Plotly. -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- Import the D3 library. Note that this has to happen 
+    before we import any code that uses D3. -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="static/style.css"></link>
+</head>
+
+<body>
+    <h1>This is index.html</h1>
+
+    {{ sb.winner }}
+
+    <!-- Placeholder for a plot -->
+    <div id="plot"></div>
+
+    <!-- Create a hyperlink that calls the '/other' route when clicked. 
+         Go to app.py to see how that '/other' route is defined. -->
+    <a href="/other">Click here for the other page!</a>
+
+    <!-- Import the main JavaScript code. -->
+    <script type="text/javascript" src="static/main.js"></script>
+
+</body>
+
+</html>

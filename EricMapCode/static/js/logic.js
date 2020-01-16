@@ -20,8 +20,8 @@ function createMap(superBowls) {
 
   // Create the map object with options
   var map = L.map("map-id", {
-    center: [34,-112],
-    zoom: 11,
+    center: [39.828175,-98.579500],
+    zoom: 5,
     layers: [lightmap, superBowls]
   });
 

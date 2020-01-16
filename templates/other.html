@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Here, just for grins, I'm populating the title with a parameter 
+         that gets specified in the call to render_template() in app.py. 
+         Go to app.py and see the '/other' route for details. -->
+    <title>{{title_we_want}}</title>
+</head>
+
+<body>
+    <h1>This is other.html</h1>
+
+    <!-- Define a link that takes us back to the index route. 
+         Note that this doesn't call index.html directly, but 
+         instead executes the code for the index route in app.py. -->
+    <a href="/">Click here to return home!</a>
+</body>
+
+</html>
