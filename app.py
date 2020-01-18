@@ -1,12 +1,15 @@
 # Import the functions we need from flask
 import numpy as np
-import pandas as pd 
+import pandas as pd
+from flask import Flask
+from flask import render_template 
+from flask import jsonify
+
+# Import the functions we need from SQL Alchemy
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
-from flask import Flask, jsonify, render_template
-
+from sqlalchemy import create_engine
 #############################################
 # Datatbase Setup
 #############################################
@@ -41,19 +44,21 @@ app = Flask(__name__)
 def welcome():
     """list all routes"""
    
-    return(
-        f"Available Routes:<br/>"
-        f"/api/v1.0/data<br/>"
-        f"/api/v1.0/map<br/>"
-        f"/api/v1.0/other<br/>"
-        f"/api/v1.0/jsonified<br/>"
-        f"/api/v1.0/"
- )
+#     return(
+#         f"Available Routes:<br/>"
+#         f"/api/v1.0/index</br>"
+#         f"/api/v1.0/other<br/>"
+#         f"/api/v1.0/data<br/>"
+#         f"/api/v1.0/map<br/>"
+#         f"/api/v1.0/jsonified"      
+#  )
 
+    webpage = render_template("index.html")
+    return webpage
 ###################################################
 
 # Here's where we define the various application routes ...
-@app.route("/")
+@app.route("/index")
 def IndexRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
@@ -118,6 +123,7 @@ def mapRoute():
         coordinates_dict["long"] = lng
 
         coordinates.append(coordinates_dict)
+
 
 
     return jsonify(coordinates)
