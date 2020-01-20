@@ -12,7 +12,7 @@
 
     <!-- Import the D3 library. Note that this has to happen 
     before we import any code that uses D3. -->
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 
     
     <!-- Import some CSS, just to show how it's done. -->
@@ -22,14 +22,22 @@
 <body>
     <h1>This is index.html</h1>
 
-    
+
+    <!-- Placeholder for a map -->
+    <div id="map"></div>
 
     <!-- Placeholder for a plot -->
     <div id="plot"></div>
 
     <!-- Create a hyperlink that calls the '/other' route when clicked. 
-         Go to app.py to see how that '/other' route is defined. -->
+            Go to app.py to see how that '/other' route is defined. -->
     <a href="/other">Click here for the other page!</a>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+    <!-- API Key -->
+    <script type="text/javascript" src="static/config.js"></script>
 
     <!-- Import the main JavaScript code. -->
     <script type="text/javascript" src="static/main.js"></script>

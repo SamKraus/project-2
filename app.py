@@ -125,12 +125,12 @@ def mapRoute():
         coordinates.append(coordinates_dict)
 
 
-
     return jsonify(coordinates)
 
 
-    ''' This function returns a simple message, just to guarantee that
-        the Flask server is working. '''
+
+    # ''' This function returns a simple message, just to guarantee that
+    # the Flask server is working. '''
 
 
 ###################################################
@@ -141,8 +141,6 @@ def mapRoute():
 
 def jsonified():
 
-    data = pd.read_sql('select * from superbowl', connection)
-    
     session = Session(engine)
 
     results = []
@@ -154,6 +152,7 @@ def jsonified():
         'city, state': s.city_state, 'lat': s.lat, 'long': s.lng})
 
     print(results)
+
 
     session.close()
 
