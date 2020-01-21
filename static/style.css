@@ -1,2 +1,12 @@
-h1 { color: blue; }
-/* test */
+h1 { color: #0000ff; }
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }

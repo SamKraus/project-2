@@ -22,7 +22,7 @@ d3.json("/map").then(function(data) {
           "Light Map": lightmap
         };
       
-        // Create an overlayMaps object to hold the bikeStations layer
+        // Create an overlayMaps object to hold the stadiumMap layer
         var overlayMaps = {
           "Stadium Cities": stadiumMap
         };
@@ -40,50 +40,43 @@ d3.json("/map").then(function(data) {
         }).addTo(map);
     }
     
-    function createMarkers(sbdata) {
+    // function createMarkers(data) {
+        
+    //     // Pull the event data
+    //     var superbowlCities = data;
+        
+
+    //     // create markers
+    //     // Initialize an array to hold quake markers
+    //     var stadiumMarkers = [];
+
+    //     for (var i = 0; i < superbowlCities.length; i++) {
+    //         var superbowlCity = superbowlCities[i];
+    //         var stadiumCity = superbowlCities.city_state; 
+
+    //         console.log("stadiumCity: " + stadiumCity);
+
+    //         // Adding circular markers + popups 
+    //         stadiumMarker = L.marker([superbowlCity.lat, superbowlCity.long], {
+    //         fillOpacity: 0.75,
+    //         color: "white",
+    //         fillcolor: "white",
+    //         // fillColor: circleColor(timesHosted???),
+    //         radius: 100
+    //         });
+    //         // }).bindPopup("<h1>Super Bowl" + superbowlCities.superbowl + "</h1>").addTo(map).addTo(map); 
+
+    //         console.log(stadiumMarker);
+
+    //         // Add the marker to the quakeMarkers array
+    //         stadiumMarkers.push(stadiumMarker);
+
+    //         console.log("stadiumMarkers:"+stadiumMarkers);
+    //     };
+    // };
+
+
+    // Create a layer group made from the quake markers array, pass it into the createMap function
+    createMap(L.layerGroup(stadiumMarkers));
     
-        // Pull the "stations" property off of response.data
-        var superbowlCities = data.map(d => d.city_state);
-
-
-        console.log("superbowlCities:"+superbowlCities);
-        
-        // Initialize an array to hold bike markers
-        var stadiumMarkers = [];
-       
-        stadiumCity = data.map(d => d.superbowl);
-        superbowlGame = data.map(d => d.city_state);
-        stadiumLat = data.map(d => d.lat);
-        stadiumLong = data.map(d => d.long);
-
-        console.log("City: "+stadiumCity);
-        console.log("Superbowl: "+superbowlGame);
-        console.log("Lat: "+stadiumLat);
-        console.log("Long: "+stadiumLong);
-    
-        // test markers for trial map
-        var testMarker= ([34.1139, -118.4868],[33.2525,-110.2558])
-
-        // // Loop through the stations array
-        // for (var index = 0; index < superbowlCities.length; index++) {
-
-        //     var stadiumList = superbowlCities[index];
-
-        //     console.log("stadiumList: "+stadiumList);
-        
-        //     // For each station, create a marker and bind a popup with the station's name
-        //     var stadiumMarker = L.marker([stadiumList.lat, stadiumList.long])
-        //     // .bindPopup("<h3>Super Bowl" + stadiumList.superbowl + "<h3>");
-        
-        //     // Add the marker to the bikeMarkers array
-        //     stadiumMarkers.push(stadiumMarker);
-        // }
-      
-        // Create a layer group made from the bike markers array, pass it into the createMap function
-        createMap(L.layerGroup(testMarker));
-        
-        // createMap(L.layerGroup(stadiumMarkers));
-    }
-      
-
 });

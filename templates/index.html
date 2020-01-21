@@ -4,11 +4,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Eric Flask Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SuperBowl Map</title>
+
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 
     <!-- Import the Plotly library. Note that this has to 
          happen before we importa any code that uses Plotly. -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
 
     <!-- Import the D3 library. Note that this has to happen 
     before we import any code that uses D3. -->
@@ -20,18 +26,20 @@
 </head>
 
 <body>
-    <h1>This is index.html</h1>
+    <!-- <h1>Cities That Have Hosted a Super Bowl</h1> -->
 
 
     <!-- Placeholder for a map -->
     <div id="map"></div>
 
     <!-- Placeholder for a plot -->
-    <div id="plot"></div>
+    <!-- <div id="plot"></div> -->
 
     <!-- Create a hyperlink that calls the '/other' route when clicked. 
             Go to app.py to see how that '/other' route is defined. -->
-    <a href="/other">Click here for the other page!</a>
+    <!-- <a href="/other">Click here for the other page!</a> -->
+
+    
 
     <!-- Leaflet JavaScript -->
     <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>

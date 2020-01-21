@@ -33,11 +33,12 @@ Superbowls = Base.classes.superbowl
 ##############################################
 # Flask Setup
 #########################################
-
+             
 # This statement is required for Flask to do its job. 
 # Think of it as chocolate cake recipe. 
 app = Flask(__name__)
 
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] =0      
 #########################################
 
 @app.route("/")
@@ -107,7 +108,8 @@ def mapRoute():
     session = Session(engine)
 
     map_results = session.query(Superbowls.sb, Superbowls.city_state,
-    Superbowls.lat, Superbowls.lng).all()
+    Superbowls.lat, Superbowls.lng, Superbowls.winner, Superbowls.loser,
+    Superbowls.winning_pts, Superbowls.losing_pts).all()
 
     session.close()
 
@@ -115,12 +117,18 @@ def mapRoute():
 
     coordinates = []
 
-    for sb, city_state, lat, lng in map_results:
+    for sb, city_state, lat, lng, winner, loser, winning_pts, losing_pts in map_results:
         coordinates_dict = {}
         coordinates_dict["superbowl"] = sb
         coordinates_dict["city_state"] = city_state
         coordinates_dict["lat"] = lat
         coordinates_dict["long"] = lng
+        coordinates_dict["winner"] = winner
+        coordinates_dict["loser"] = loser
+        coordinates_dict["winner_pts"] = winning_pts
+        coordinates_dict["loser_pts"] = losing_pts
+
+
 
         coordinates.append(coordinates_dict)
 
