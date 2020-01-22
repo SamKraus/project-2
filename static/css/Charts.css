@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+header {
+    background: #333;
+  }
+#summary {
+    margin: 10px;
+    font-size: 17px;
+    line-height: 1.8em;
+    background: #333;
+    color: #eee;
+    text-align: center;
+  }
