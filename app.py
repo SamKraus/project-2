@@ -54,7 +54,7 @@ def welcome():
 #         f"/api/v1.0/jsonified"      
 #  )
 
-    webpage = render_template("index.html")
+    webpage = render_template("map.html")
     return webpage
 ###################################################
 
@@ -64,7 +64,7 @@ def IndexRoute():
     ''' This function runs when the browser loads the index route. 
         Note that the html file must be located in a folder called templates. '''
 
-    webpage = render_template("index.html")
+    webpage = render_template("other.html")
     return webpage
 #################################################
 
@@ -102,7 +102,7 @@ def DataRoute():
 #################################################################
 
 
-@app.route("/map")
+@app.route("/mapData")
 def mapRoute():
 
     session = Session(engine)

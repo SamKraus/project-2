@@ -1,12 +1,20 @@
-h1 { color: #0000ff; }
-
 body {
-    padding: 0;
-    margin: 0;
-  }
-  
-  #map,
-  body,
-  html {
-    height: 100%;
-  }
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+
+h1 {
+  width:2000px;
+  height:40px;
+  margin: 0 auto;
+  background: rgb(122, 103, 103);
+  text-align: center;
+  color: black;
+}
