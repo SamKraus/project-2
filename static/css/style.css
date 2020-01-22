@@ -26,17 +26,9 @@
     left: 0;
     min-height: 100px;
     background: #4e5d6c;
+    text-align: center;
   }
   
-  /* The code styles the text at the bottom of the footer */
-  .footer > .bottom {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 5px;
-    background: blue;
-  }
   
   .navbar {
     padding: 25px;
@@ -142,6 +134,7 @@
     margin-top: 200px;
     font-size: 0.1rem;
     animation: title 1.2s forwards linear;
+    color: orange;
   }
   
   .hero p {
@@ -149,6 +142,7 @@
     opacity: 0;
     animation: subtitle 1.2s forwards linear;
     animation-delay: 1.2s;
+    color: orange;
   }
   
   /* input placeholder color changes */
