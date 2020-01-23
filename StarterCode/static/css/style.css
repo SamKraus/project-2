@@ -35,11 +35,11 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: blue;
+  background: rgb(26, 26, 85);
 }
 
 .navbar {
-  padding: 25px;
+  padding: 30px;
   margin: 0;
   background: rgb(26, 26, 85);
 }
@@ -47,8 +47,8 @@ body {
 /* This CSS styles the NFL icon in the navbar */
 .nav-NFL {
   position: absolute;
-  top: 15px;
-  left: 270px;
+  top: 21px;
+  left: 275px;
   width: 81px;
   color:white;
 }
@@ -57,18 +57,18 @@ body {
 .Map-NFL {
   position: absolute;
   top: 5px;
-  right: 450px;
-  width: 144px;
-  color:white;
+  right:325px;
+  width: 130px;
+  height: auto;
 }
 
 /* This CSS styles the Attendance icon in the navbar */
 .Attendance-NFL {
   position: absolute;
   top: 8px;
-  right: 311px;
-  width: 125px;
-  height: 93px;
+  right: 204px;
+  width: 90px;
+  height: auto;
   color:white;
 }
 
@@ -76,9 +76,9 @@ body {
 .WinsandLoses-NFL {
   position: absolute;
   top: 8px;
-  right: 100px;
+  right: 50px;
   width: 125px;
-  height: 93px;
+  height: auto;
   color:white;
 }
 
@@ -200,7 +200,7 @@ select {
     height: 1px;
     margin-top: 20px;
     content: " ";
-    background: aliceblue;
+    background: red;
   }
 
   #table-area td {
