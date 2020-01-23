@@ -8,7 +8,7 @@ from flask import Flask, jsonify, render_template
 
 
 username = 'postgres'
-password = 'postgres'
+password = 'chicago1023'
 engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/Project_2')
 
 
