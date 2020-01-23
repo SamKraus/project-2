@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Superbowl Attendance</title>
+
+    <!-- Import the Plotly library. Note that this has to 
+         happen before we importa any code that uses Plotly. -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+         <!-- Import the D3 library. Note that this has to happen 
+         before we import any code that uses D3. -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="static/css/Charts.css"></link>
+   
+    
+    
+</head>
+
+<body>
+    <header>
+          <h1>Super Bowl Attendance</h1> 
+    </header>
+     
+    
+       
+    <!-- Placeholder for a plot -->
+    <div id="plot"></div>
+    
+    
+    <section id="summary">
+    <p>This graph lists Super Bowls 1 through 54 on the x-axis and the attendance for each 
+     Super Bowl on the y-axis. It also includes the stadium when hovered over. The biggest 
+     stadium that has hosted a Super Bowl is the Rose Bowl stadium. The Rose Bowl stadium has 
+     hosted 4 of the top 5 highest attended Super Bowls. </p>
+    </section>
+
+    <!-- Define a link that takes us back to the index route. 
+         Note that this doesn't call index.html directly, but 
+         instead executes the code for the index route in app.py. -->
+    <a href="/">Main Super Bowl History page</a>
+    <br>
+    <a href="/winlose">Super Bowl wins/loses</a>
+    <br>
+    <a href="/map">Map of Super Bowl locations</a>
+    
+    <script type="text/javascript" src="static/js/attendance.js"></script>
+
+</body>
+
+</html>
