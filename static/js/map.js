@@ -74,7 +74,11 @@ d3.json("/mapData").then(function(data) {
 
     for (var i = 0; i < superbowlCities.length; i++) {
       var superbowlCity = superbowlCities[i];
-      var stadiumCity = superbowlCities.city_state;
+      var stadiumCity = superbowlCities.city_state; 
+
+
+
+
 
    
       // Adding circular markers + popups 
