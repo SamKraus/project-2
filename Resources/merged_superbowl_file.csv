@@ -1,0 +1,53 @@
+sb,attendance,winner,winning_pts,loser,losing_pts,mvp,stadium,city_state,lat,lng
+I,61946.0,Green Bay Packers,35.0,Kansas City Chiefs,10.0,Bart Starr,Memorial Coliseum,Los Angeles California,34.1139,-118.4068
+VII,90182.0,Miami Dolphins,14.0,Washington Redskins,7.0,Jake Scott,Memorial Coliseum,Los Angeles California,34.1139,-118.4068
+II,75546.0,Green Bay Packers,33.0,Oakland Raiders,14.0,Bart Starr,Orange Bowl,Miami Florida,25.7839,-80.2102
+III,75389.0,New York Jets,16.0,Baltimore Colts,7.0,Joe Namath,Orange Bowl,Miami Florida,25.7839,-80.2102
+V,79204.0,Baltimore Colts,16.0,Dallas Cowboys,13.0,Chuck Howley,Orange Bowl,Miami Florida,25.7839,-80.2102
+X,80187.0,Pittsburgh Steelers,21.0,Dallas Cowboys,17.0,Lynn Swann,Orange Bowl,Miami Florida,25.7839,-80.2102
+XIII,79484.0,Pittsburgh Steelers,35.0,Dallas Cowboys,31.0,Terry Bradshaw,Orange Bowl,Miami Florida,25.7839,-80.2102
+IV,80562.0,Kansas City Chiefs,23.0,Minnesota Vikings,7.0,Len Dawson,Tulane Stadium,New Orleans Louisiana,30.0687,-89.9288
+VI,81023.0,Dallas Cowboys,24.0,Miami Dolphins,3.0,Roger Staubach,Tulane Stadium,New Orleans Louisiana,30.0687,-89.9288
+IX,80997.0,Pittsburgh Steelers,16.0,Minnesota Vikings,6.0,Franco Harris,Tulane Stadium,New Orleans Louisiana,30.0687,-89.9288
+XII,76400.0,Dallas Cowboys,27.0,Denver Broncos,10.0,"Harvey Martin, Randy White",Superdome,New Orleans Louisiana,30.0687,-89.9288
+XV,76135.0,Oakland Raiders,27.0,Philadelphia Eagles,10.0,Jim Plunkett,Louisiana Superdome,New Orleans Louisiana,30.0687,-89.9288
+XX,73818.0,Chicago Bears,46.0,New England Patriots,10.0,Richard Dent,Louisiana Superdome,New Orleans Louisiana,30.0687,-89.9288
+XXIV,72919.0,San Francisco 49ers,55.0,Denver Broncos,10.0,Joe Montana,Louisiana Superdome,New Orleans Louisiana,30.0687,-89.9288
+XXXI,72301.0,Green Bay Packers,35.0,New England Patriots,21.0,Desmond Howard,Louisiana Superdome,New Orleans Louisiana,30.0687,-89.9288
+XXXVI,72922.0,New England Patriots,20.0,St. Louis Rams,17.0,Tom Brady,Louisiana Superdome,New Orleans Louisiana,30.0687,-89.9288
+XLVII,71024.0,Baltimore Ravens,34.0,San Francisco 49ers,31.0,Joe Flacco,Mercedes-Benz Superdome,New Orleans Louisiana,30.0687,-89.9288
+VIII,71882.0,Miami Dolphins,24.0,Minnesota Vikings,7.0,Larry Csonka,Rice Stadium,Houston Texas,29.7869,-95.3905
+XXXVIII,71525.0,New England Patriots,32.0,Carolina Panthers,29.0,Tom Brady,Reliant Stadium,Houston Texas,29.7869,-95.3905
+LI ,70807.0,New England Patriots,34.0,Atlanta Falcons,28.0,Tom Brady,NRG Stadium,Houston Texas,29.7869,-95.3905
+XI,103438.0,Oakland Raiders,32.0,Minnesota Vikings,14.0,Fred Biletnikoff,Rose Bowl,Pasadena California,34.1597,-118.139
+XIV,103985.0,Pittsburgh Steelers,31.0,Los Angeles Rams,19.0,Terry Bradshaw,Rose Bowl,Pasadena California,34.1597,-118.139
+XVII,103667.0,Washington Redskins,27.0,Miami Dolphins,17.0,John Riggins,Rose Bowl,Pasadena California,34.1597,-118.139
+XXI,101063.0,New York Giants,39.0,Denver Broncos,20.0,Phil Simms,Rose Bowl,Pasadena California,34.1597,-118.139
+XXVII,98374.0,Dallas Cowboys,52.0,Buffalo Bills,17.0,Troy Aikman,Rose Bowl,Pasadena California,34.1597,-118.139
+XVI,81270.0,San Francisco 49ers,26.0,Cincinnati Bengals,21.0,Joe Montana,Pontiac Silverdome,Pontiac Michigan,42.6493,-83.2878
+XVIII,72920.0,Los Angeles Raiders,38.0,Washington Redskins,9.0,Marcus Allen,Tampa Stadium,Tampa Florida,27.9942,-82.4451
+XXV,73813.0,New York Giants,20.0,Buffalo Bills,19.0,Ottis Anderson,Tampa Stadium,Tampa Florida,27.9942,-82.4451
+XXXV,71921.0,Baltimore Ravens,34.0,New York Giants,7.0,Ray Lewis,Raymond James Stadium,Tampa Florida,27.9942,-82.4451
+XLIII,70774.0,Pittsburgh Steelers,27.0,Arizona Cardinals,23.0,Santonio Holmes,Raymond James Stadium,Tampa Florida,27.9942,-82.4451
+XIX,84059.0,San Francisco 49ers,38.0,Miami Dolphins,16.0,Joe Montana,Stanford Stadium,Palo Alto California,37.3913,-122.1467
+XXII,73302.0,Washington Redskins,42.0,Denver Broncos,10.0,Doug Williams,Jack Murphy Stadium,San Diego California,32.8312,-117.1225
+XXXII,68912.0,Denver Broncos,31.0,Green Bay Packers,24.0,Terrell Davis,Qualcomm Stadium,San Diego California,32.8312,-117.1225
+XXXVII,67603.0,Tampa Bay Buccaneers,48.0,Oakland Raiders,21.0,Dexter Jackson,Qualcomm Stadium,San Diego California,32.8312,-117.1225
+XXIII,75129.0,San Francisco 49ers,20.0,Cincinnati Bengals,16.0,Jerry Rice,Joe Robbie Stadium,Miami Gardens Florida,25.9433,-80.2426
+XXIX,74107.0,San Francisco 49ers,49.0,San Diego Chargers,26.0,Steve Young,Joe Robbie Stadium,Miami Gardens Florida,25.9433,-80.2426
+XXXIII,74803.0,Denver Broncos,34.0,Atlanta Falcons,19.0,John Elway,Pro Player Stadium,Miami Gardens Florida,25.9433,-80.2426
+XLI,74512.0,Indianapolis Colts,29.0,Chicago Bears,17.0,Peyton Manning,Dolphin Stadium,Miami Gardens Florida,25.9433,-80.2426
+XLIV,74059.0,New Orleans Saints,31.0,Indianapolis Colts,17.0,Drew Brees,Sun Life Stadium,Miami Gardens Florida,25.9433,-80.2426
+XXVI,63130.0,Washington Redskins,37.0,Buffalo Bills,24.0,Mark Rypien,Metrodome,Minneapolis Minnesota,44.9635,-93.2678
+LII,67612.0,Philadelphia Eagles,41.0,New England Patriots,33.0,Nick Foles,U.S. Bank Stadium,Minneapolis Minnesota,44.9635,-93.2678
+XXVIII,72817.0,Dallas Cowboys,30.0,Buffalo Bills,13.0,Emmitt Smith,Georgia Dome,Atlanta Georgia,33.7627,-84.4225
+XXXIV,72625.0,St. Louis Rams,23.0,Tennessee Titans,16.0,Kurt Warner,Georgia Dome,Atlanta Georgia,33.7627,-84.4225
+XXX,76347.0,Dallas Cowboys,27.0,Pittsburgh Steelers,17.0,Larry Brown,Sun Devil Stadium,Tempe Arizona,33.3881,-111.9318
+XXXIX,78125.0,New England Patriots,24.0,Philadelphia Eagles,21.0,Deion Branch,Alltel Stadium,Jacksonville Florida,30.3322,-81.6749
+XL,68206.0,Pittsburgh Steelers,21.0,Seattle Seahawks,10.0,Hines Ward,Ford Field,Detroit Michigan,42.3834,-83.1024
+XLII,71101.0,New York Giants,17.0,New England Patriots,14.0,Eli Manning,University of Phoenix Stadium,Glendale Arizona,33.5797,-112.2258
+XLIX,70288.0,New England Patriots,28.0,Seattle Seahawks,24.0,Tom Brady,University of Phoenix Stadium,Glendale Arizona,33.5797,-112.2258
+XLV,103219.0,Green Bay Packers,31.0,Pittsburgh Steelers,25.0,Aaron Rodgers,Cowboys Stadium,Arlington Texas,32.6998,-97.1251
+XLVI,68658.0,New York Giants,21.0,New England Patriots,17.0,Eli Manning,Lucas Oil Stadium,Indianapolis Indiana,39.7771,-86.1458
+XLVIII,82529.0,Seattle Seahawks,43.0,Denver Broncos,8.0,Malcolm Smith,MetLife Stadium,East Rutherford New Jersey,40.8179,-74.0854
+L ,71088.0,Denver Broncos,24.0,Carolina Panthers,10.0,Von Miller,Levi's Stadium,Santa Clara California,37.3646,-121.96799999999999
