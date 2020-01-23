@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Superbowl Wins/Loses</title>
+
+    <!-- Import the Plotly library. Note that this has to 
+         happen before we importa any code that uses Plotly. -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+         <!-- Import the D3 library. Note that this has to happen 
+         before we import any code that uses D3. -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="static/css/Charts.css"></link>
+   
+    
+    
+</head>
+
+<body>
+    <header>
+          <h1>Super Bowl Wins/Loses</h1> 
+    </header>
+     
+    
+       
+    <!-- Placeholder for a plot -->
+    <div id="plot"></div>
+    
+    <section id="summary">
+    <p>This graph shows the number of wins/loses each NFL team has. The Pittsburgh Steelers have the most Super Bowl wins with 6 and
+      the New England Patriots and the Denver Broncos have the most loses with 5. There are 4 teams that aren't listed that haven't
+      made it to a Suber Bowl which are the Detroit Lions, Cleveland Browns, Jacksonville Jaguars, and the Houston Texans. </p>
+    </section>
+
+    <!-- Define a link that takes us back to the index route. 
+         Note that this doesn't call index.html directly, but 
+         instead executes the code for the index route in app.py. -->
+    <a href="/">Main Super Bowl History page</a>
+    <br>
+    <a href="/attendance">Super Bowl Attendance</a>
+    <br>
+    <a href="/map">Map of Super Bowl locations</a>
+    
+    
+    <script type="text/javascript" src="static/js/winner.js"></script>
+
+</body>
+
+</html>
